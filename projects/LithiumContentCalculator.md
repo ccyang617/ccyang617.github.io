@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/.jpg
+image: img/Li_ion.jpg
 title: "Lithum Content Calculator"
 date: 2023
 published: true
