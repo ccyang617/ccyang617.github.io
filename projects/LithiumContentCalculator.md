@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/.jpg
 title: "Lithum Content Calculator"
 date: 2023
 published: true
@@ -13,9 +13,8 @@ summary: "I developed a simple Android application that can calculate the lithiu
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
+  <img width="403px" src="../img/AndroidProject_LBCimg.JPG" class="img-thumbnail" >
+  <img width="403px" src="../img/androidproj_LBCcamexample.JPG" class="img-thumbnail" >
 </div>
 
 The Lithium Content Calculator is a simple calculator that takes in the specifications of a lithium ion battery, such as ampere-hours and voltage, and calculates the lithium content in grams. The calculator also has the capability to scan the text from an image and fill the text-fields with the corresponding values for the ampere-hours and voltage. The application utilizes the device's built-in camera and can capture an image for scanning. The calculator utilizes the Google MachineLearning Kit Library's functions to scan text from a corrected bitmap and outputs the desired text as a string. The scanned text will then be displayed in the entry fields for the user to adjust if necessary.
