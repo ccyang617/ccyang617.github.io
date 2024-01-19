@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/Li_ion.jpg
+image: img/fpga1.JPG
 title: "FPGA Hardware Implementation"
 date: 2023
 published: true
@@ -18,7 +18,9 @@ It was important to ensure the correct inputs and outputs had wires connecting e
 
 This project allowed me to refresh my skills in SystemVerilog and practice designing circuits and better understand how circuits rely on Hardware Description Language to commmunicate between Engineers and Hardware. The Hardware is capable of many things and it is up to the humans on the other side to unlock their usefulness with communication through common language.
 
+Here you can see examples of the modules for the registers, multiplexer, and arithmetic logic unit:
 <div class="text-center p-4">
-  <img width="403px" src="../img/AndroidProject_LBCimg.JPG" class="img-thumbnail" >
-  <img width="403px" src="../img/androidproj_LBCcamexample.JPG" class="img-thumbnail" >
+  <img width="314px" src="../img/fpga_reg.JPG" class="img-thumbnail" >
+  <img width="388px" src="../img/fpga_mux.JPG" class="img-thumbnail" >
+  <img width=""320px" src="../img/fpga_selalu.JPG" class="img-thumbnail" >
 </div>
