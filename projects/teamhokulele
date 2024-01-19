@@ -4,7 +4,7 @@ type: project
 image: img/teamHokulele_icon.png
 title: "Team Hokulele Rocket Project"
 date: Spring 2021
-published: false
+published: true
 labels:
   - Software Design
   - Arduino
