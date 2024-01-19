@@ -26,15 +26,29 @@ This project was completed alone with the help of my Project Advisor, Dr. Galen 
 Here is some code that illustrates how we scan for text using an image:
 
 ```cpp
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
+@Composable
+fun AnalyzeText(
+    textRecognizerViewModel: TextRecognizerViewModel = viewModel(),
+    imToAnalyze: (Bitmap),
+    onMAMPH: (String) -> Unit,
+    onV: (String) -> Unit,
+    onVolt: (String) -> Unit,
+    onScanSuccess: () -> Unit,
+) {
+
+    val recognizer = TextRecognition.getClient(TextRecognizerOptions.DEFAULT_OPTIONS)
+    val mamphPattern = Regex("""(\d+)mAmpH""")
+    val vPattern = Regex("""(\d+)V""")
+    val voltPattern = Regex("""(\d+) Volt""")
+
+
+    val inImage = InputImage.fromBitmap(imToAnalyze, 0)
+    recognizer.process(inImage)
+        .addOnSuccessListener { visionText: Text ->
+            val detectedText: String = visionText.text
+            if (detectedText.isNotBlank()){
+                val mamphMatch = mamphPattern.find(detectedText).toString()
+                val vMatch = vPattern.find(detectedText).toString()
+                val voltMatch = voltPattern.find(detectedText).toString()
 ```
 
-You can learn more at the [UH Micromouse News Announcement](https://manoa.hawaii.edu/news/article.php?aId=2857).
