@@ -20,7 +20,7 @@ A smart question is often determined by whether the question asker has tried to 
 On Stack Overflow, an online resource for asking programming questions, there are thousands of asked questions on varying topics. Often many of these questions go unanswered but the ones that do are typically "Smart Questions". This is because it is easier to answer a question with all of the relevant information available. Users answering questions do not want to go back and forth online asking the asker what level of competence do they have with this subject. The questions that get answered can be answered immediately without much thought besides how they should explain the topic to a user at a certain level.
 
 Here is an example I found on Stack Overflow of what I believe is a "Smart Question"
-
+[The Good Question](https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array))
 ```
 Q: Why is processing a sorted array faster than processing an unsorted array?
 
@@ -252,7 +252,7 @@ The question asker was able to generate many responses from this question all ve
 ## How to get ghosted online.
 
 Some questions are not very informative, and sometimes users can ask too broad of a question leading to no answers. In this example a user is asking about Kotlin, an android development language based on java. This looks like the first step to a kotlin tutorial and the user is confused why it is not working.
-
+[The Bad Question](https://stackoverflow.com/questions/77885212/kotlin-coroutines-dont-work-in-a-command-line)
 ```
 Q:
 
