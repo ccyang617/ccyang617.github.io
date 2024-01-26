@@ -247,25 +247,42 @@ This goes to show that even mature modern compilers can vary wildly in their abi
 
 ```
  
-The question asker was able to generate many responses from this question all very similar but different. The first and most voted answer is the one I have published with this essay since to me it shows the understanding the answerer had of the experience level of the asker. It is clear that although the question asker does have a good knowledge in programming since they can implement 
+The question asker was able to generate many responses from this question all very similar but different. The first and most voted answer is the one I have published with this essay since to me it shows the understanding the answerer had of the experience level of the asker. It is clear that although the question asker has a decent understanding of programming, they are most likely a student or someone with beginner/no knowledge of computer engineering concepts. Here the answerer is able to try and create a metaphor for how branch-prediction works in a computer processing unit to easily explain the concept. This is for the benefit of the question ansker and was genuinely a great example of how it works. In this example the question asker was able to give the answerer enough information about themself and their experience so that the answerer could tailor the best method of explanation for them.
 
-## The foolproof way to get ignored.
+## How to get ghosted online.
 
-While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
+Some questions are not very informative, and sometimes users can ask too broad of a question leading to no answers. In this example a user is asking about Kotlin, an android development language based on java. This looks like the first step to a kotlin tutorial and the user is confused why it is not working.
 
 ```
-Q: Facebook Desktop Notifier
+Q:
 
-I am a beginner programmer that have never used anything other than what's included in a language.
+I have the following program:
 
-I am trying to create a desktop application that notifies me anytime I get an update onfacebook. 
-How should go about doing this? Thanks in advance.
+//Main.kt
+import kotlinx.coroutines.*
+import java.util.concurrent.*
 
-edit Sorry I was not clear. Is there any way to make a DESKTOP application with facebook?
+fun main() {
+        val scope = CoroutineScope(Job() + Dispatchers.Default)
+
+        scope.launch{
+                println("hello")
+        }
+}
+
+I tried to run it in a command line:
+
+i@LAPTOP:/mnt/d/PROJECTS$ ls
+Main.kt  annotations-23.0.0.jar  kotlin-stdlib-1.9.21.jar  kotlinx-coroutines-core-jvm-1.8.0-RC2.jar
+i@LAPTOP:/mnt/d/PROJECTS$ kotlinc Main.kt -cp annotations-23.0.0.jar:kotlin-stdlib-1.9.21.jar:kotlinx-coroutines-core-jvm-1.8.0-RC2.jar
+i@LAPTOP:/mnt/d/PROJECTS$ java -cp annotations-23.0.0.jar:kotlin-stdlib-1.9.21.jar:kotlinx-coroutines-core-jvm-1.8.0-RC2.jar:. MainKt
+i@LAPTOP:/mnt/d/PROJECTS$
+
+I expected to see hello in the command line but for some reason my program prints nothing. Why?
+
 ```
-
-A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer.
+This question received no answers and I can see why. They simply show what they have input, and explain nothing happens. The question that follows is "Why?" or more precisely "Why is hello not showing up in the command line." but the answerer has almost nothing to work with. Perhaps the code will be enough for a user to go through and figure out what is wrong. Luckily in this case the block of code is very short and would not be too hard to trace, however this question is still posed in a bad way.
 
 ## Conclusion
 
-When we rely on others’ generosity and expertise to provide answers to our questions, it should hold that the question we ask should be one that leads to efficient and effective help that not only benefits us, but also the people we ask and others who might ask the same question in the future. Thus, if you have a question… make it a smart one! Asking questions may not always get you the best answer, but asking them in a way that will make others want to answer them will increase the success of finding a good solution and make it a positive experience on all sides.
+When expecting others, especially kind-hearted strangers, to assist us it is also our duty to make it easy for them to provide an answer. Nobody wants to do unneccesary work, especially when volunteering their time to assist a stranger on the internet. The best way to go about asking questions is clearly to provide enough context, information, and overall scope of the issue as bestas possible. This way the answerers of the world can easily help us without devoting a large amount of time simply understanding the problem.
