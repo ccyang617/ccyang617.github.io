@@ -1,10 +1,10 @@
 ---
 layout: essay
 type: essay
-title: "Smart Questions, Good Answers"
+title: "Asking Questions The Right Way"
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-08
-published: false
+date: 2024-1-25
+published: true
 labels:
   - Questions
   - Answers
