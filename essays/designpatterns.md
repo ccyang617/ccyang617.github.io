@@ -14,7 +14,7 @@ labels:
   - Data Structures
 ---
 
-<img width="303px" class="rounded float-start pe-4" src="../img/bootstrap5-icon.jpg">
+<img width="303px" class="rounded float-start pe-4" src="../img/design-patterns.jpg">
 
 <h1>Common Data Patterns Seen In Algorithms</h1>
 <h4>Dijkstra's Algorithm</h4>
