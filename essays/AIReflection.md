@@ -69,7 +69,7 @@ I have used AI in class this semester in the following areas:
 <p>AI has many practical applications that can be applied to the real world. In my experience I have had a lot of success when using AI as a research tool. AI is able to very quickly find information on certain topics. I have personally found AI to be very useful when it comes to summarizing subjects and finding key ideas. By learning key ideas to subjects it makes further research a much easier task. Instead of aimlessly reading articles and trying to find credible sources, you can start with a route to success. When using AI to dive deeper into topics, the AI can have difficulties expanding on surface level knowledge. Right now AI is a useful tool to expidite processes but it is still simply a tool.</p>
 
 ### V. Challenges and Opportunities:
-<p>I often ran into challenges when utilizing AI, it is still a new technology and can be improved upon vastly. When using AI I often ran into issues when using it to create code or solve issues in existing code. When asking it to write code or using it to debug existing code, it is [](url)</p>
+<p>I often ran into challenges when utilizing AI, it is still a new technology and can be improved upon vastly. When using AI I often ran into issues when using it to create code or solve issues in existing code. When asking it to write code or using it to debug existing code, the AI has some problems properly diagnosing problems. </p>
 
 ### VI. Comparative Analysis:
 <p></p>
