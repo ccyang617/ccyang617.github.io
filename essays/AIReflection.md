@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Pulling Yourself Up By Your Bootstrap5"
+title: "AI "
 # All dates must be YYYY-MM-DD format!
 date: 2024-05-05
 published: true
@@ -66,15 +66,16 @@ I have used AI in class this semester in the following areas:
 <p>I believe AI has helped me greatly to learn concepts quicker and understand them easier. As explained above, AI has helped me by summarizing concepts I have not used in some time. When it comes to first learning a process or new coding language I still believe working through tutorials is a very important step. I think AI can be both a benefit and a hinderance to learning comprehension. It is easy to skip steps and simply ask ChatGPT for help, but when projects get more complex it can be difficult to solely rely on AI. It is important to make sure that programmers still understand how to use a certain language and how to build upon differnt components. If reliance on AI is too heavy then it can be an overall detriment. When used properly it can definitely speed up the development of skills and ehance problem solving abilities. I have been able to find solutions relatively quickly except for the most difficult sections of the final project. In my personal experience I found myself asking AI to explain how certain functions work or using it to trace my own code more than I have asked it to write blocks of code.</p>
 
 ### IV. Practical Applications:
-
+<p>AI has many practical applications that can be applied to the real world. In my experience I have had a lot of success when using AI as a research tool. AI is able to very quickly find information on certain topics. I have personally found AI to be very useful when it comes to summarizing subjects and finding key ideas. By learning key ideas to subjects it makes further research a much easier task. Instead of aimlessly reading articles and trying to find credible sources, you can start with a route to success. When using AI to dive deeper into topics, the AI can have difficulties expanding on surface level knowledge. Right now AI is a useful tool to expidite processes but it is still simply a tool.</p>
 
 ### V. Challenges and Opportunities:
-
+<p>I often ran into challenges when utilizing AI, it is still a new technology and can be improved upon vastly. When using AI I often ran into issues when using it to create code or solve issues in existing code. When asking it to write code or using it to debug existing code, it is [](url)</p>
 
 ### VI. Comparative Analysis:
-
+<p></p>
 
 ### VII. Future Considerations:
-
+<p></p>
 
 ### VIII. Conclusion:
+<p></p>
