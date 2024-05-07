@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "AI "
+title: "The Effectiveness of AI in the Classroom"
 # All dates must be YYYY-MM-DD format!
 date: 2024-05-05
 published: true
