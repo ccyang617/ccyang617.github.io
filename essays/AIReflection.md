@@ -12,7 +12,7 @@ labels:
   - UI
 ---
 
-<img width="303px" class="rounded float-start pe-4" src="../img/bootstrap5-icon.jpg">
+<img width="303px" class="rounded float-start pe-4" src="../img/ai-human.jpg">
 
 ### I. Introduction
  <p>AI is prevalent in our curriculum, the news, and the proffesional world. We can see the effects AI are having on major aspects of our lives, especially as students in Computer Engineering/ Computer Science. Throughout this semester we have utilized AI tools to assist us in our coding projects and it has changed the learning algorithm for humans. I find myself constantly looking to AI as a useful resource when first learning a subject as well as when developing a long programming project. This course has also taught us the many dangers of relying too heavily on AI and has shown examples where AI fails to provide accurate information. This shows AI can be a very useful tool if used correctly but users should be wary of how they use it and always fact check their answers.</p>
