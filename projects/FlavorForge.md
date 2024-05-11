@@ -16,7 +16,9 @@ summary: "My team and I developed a webapp that allows college students to add, 
 ---
 
 <img src="../img/flavorforgelogo.png">
-<p>[flavor-forge](https://flavor-forge.github.io)</p>
+
+
+[flavor-forge](https://flavor-forge.github.io)
 
 <h1>FlavorForge</h1>
 <h3>Team Members</h3>
