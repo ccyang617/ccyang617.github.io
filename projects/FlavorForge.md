@@ -16,7 +16,7 @@ summary: "My team and I developed a webapp that allows college students to add, 
 ---
 
 <img src="../img/flavorforgelogo.png">
-[flavor-forge](https://flavor-forge.github.io)
+<p>[flavor-forge](https://flavor-forge.github.io)</p>
 
 <h1>FlavorForge</h1>
 <h3>Team Members</h3>
@@ -32,15 +32,15 @@ summary: "My team and I developed a webapp that allows college students to add, 
 <div>
     <img src="../img/updatedhomepage.png" />
 </div>
-<h4>Recipe List Page</h4>
+    <h4>Recipe List Page</h4>
 <div>
     <img src="../img/recipe-page.png" />
 </div>
-<h4>Recipe Page</h4>
+    <h4>Recipe Page</h4>
 <div>
     <img src="" />
 </div>
-<h4>Add Recipe Page</h4>
+ <h4>Add Recipe Page</h4>
 <div>
     <img src="../img/addrecipepage.png" />
 </div>
