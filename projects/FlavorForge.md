@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/flavorforgelogo.png
+image: ../img/flavorforgelogo.png
 title: "FlavorForge: A Recipebook For College Students"
 date: 2024
 published: true
